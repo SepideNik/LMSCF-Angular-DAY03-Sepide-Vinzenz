@@ -1,1 +1,33 @@
-<p>product-detail works!</p>
+
+
+<div class="divPetsImg container d-flex mt-4 mb-4">
+	<div  class="w-50">			
+		<img class="card-img-bottom petImg " src="{{pet.img}}" alt="Card image cap">			
+	</div>         
+	<div class="p-2 bg-light text-dark d-flex flex-column justify-content-between">
+	    <div>	        	
+		    <div>
+		        <span class="font-weight-bold">name: </span>
+		            {{pet.name}}
+		    </div>
+		    <div>
+		        <span class="font-weight-bold">Price: </span>
+		            {{pet.price}}
+		    </div>
+		    <div>
+		        <span class="font-weight-bold">age: </span>
+		            {{pet.age}}
+		    </div>
+		    <div>
+		        <span class="font-weight-bold">Description: </span>
+		            {{pet.desc}}
+		    </div>
+	    </div>
+	    <div>
+	          	<a routerLink="/" class="text-dark float-right">Back</a>
+	          	<br>
+	          	<a (click)="addToCart()" class="addToCart text-dark float-right">Add To Cart</a>
+	    </div>
+
+    </div>
+ </div>

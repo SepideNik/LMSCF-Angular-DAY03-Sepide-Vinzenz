@@ -65,14 +65,6 @@ export const products = [
    desc: 'A large phone with one of the best screens'
  },
  {
-   id: '9',
-   img: '/assets/img/pet9.jpg',
-   name: 'Phone XL',
-   price: 800,
-   age: '2',
-   desc: 'A large phone with one of the best screens'
- },
- {
    id: '10',
    img: '/assets/img/pet10.jpg',
    name: 'Phone XL',

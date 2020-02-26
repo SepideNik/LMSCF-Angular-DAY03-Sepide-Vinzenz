@@ -10,7 +10,7 @@ export class ProductComponent implements OnInit {
   pets = products;
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
 }

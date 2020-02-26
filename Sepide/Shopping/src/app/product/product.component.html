@@ -1,0 +1,23 @@
+<div id="petsContainer" class="mt-5 container w-100">
+  <div id="CarItems" class="row alert d-flex justify-content-center" >
+    <div class="card divCarItem col-xs-12 col-md-6 col-lg-4 mr-5 mb-5 " *ngFor="let car of cars">
+      <div class="divCarsImg">
+        <img class="card-img-bottom carImg" src="{{pets.img}}" alt="Card image cap">
+        <div class="carDetail p-2 bg-light text-dark">
+          <div>
+            <span class="font-weight-bold">name: </span>
+            {{pets.name}}
+          </div>
+          <div>
+            <span class="font-weight-bold">Price: </span>
+            {{pets.price}}
+          </div>
+          <div>
+            <span class="font-weight-bold">age: </span>
+            {{pets.age}}
+          </div>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
